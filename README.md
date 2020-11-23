@@ -1,7 +1,7 @@
 # Portfolio-themes
 Various Themes for Portfolio
 
-Website: [preview](https://sushant2024.github.io/portfolio-themes/)
+Website: [preview](https://sushant2024.github.io/CV/)
 
 **Live share**: [joining_link](https://prod.liveshare.vsengsaas.visualstudio.com/join?9DB09C293AB31D79A65E877916AEB2B8690A)
 
