@@ -11,3 +11,6 @@ Resource: [Resource](https://sites.google.com/view/sumit-bhowmik/home?authuser=0
 
 # Published Packages:
 - None yet
+
+# Resource:
+- [Book effect](https://youtu.be/pvbC5kLp7OQ)
