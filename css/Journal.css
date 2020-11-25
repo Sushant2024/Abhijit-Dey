@@ -6,7 +6,7 @@ header{
     margin: 0;
     padding-bottom: 20px;
     width: 100%;
-    height: 35vh;
+    height: fit-content;
     background: linear-gradient(90deg, rgb(1, 13, 53),rgb(6, 76, 141), rgb(10, 3, 78));
     color: rgb(173, 173, 173);
 }
@@ -29,7 +29,7 @@ h2{
 /* =============================
   WORKING ON RESPONSIVENESS
 ============================= */
-@media (min-width:320px){
+/* @media (min-width:320px){
     header{
         margin: 0;
         padding-bottom: 20px;
@@ -59,7 +59,9 @@ h2{
         padding: 20px 0px;
         color: #2175f3;
     }
-}
+} */
+
+
 /* @media (min-width:320px){
     header h1{
         padding-top: 10vh;
