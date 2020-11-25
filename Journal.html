@@ -187,3 +187,35 @@
 
 </body>
 </html>
+
+<!-- Global javascript -->
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- Above two scripts are required for working of menu button on mobile-view -->
+
+<script src="js/jquery-easing/jquery.easing.min.js"></script>
+<script src="js/counter/jquery.waypoints.min.js"></script>
+<script src="js/counter/jquery.counterup.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+    $(document).ready(function(){
+
+    $(".filter-b").click(function(){
+        var value = $(this).attr('data-filter');
+        if(value == "all")
+        { 
+            $('.filter').show('1000');
+        }
+        else
+        { 
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+        }
+    });
+    
+    if ($(".filter-b").removeClass("active")) {
+      $(this).removeClass("active");
+    }
+    $(this).addClass("active");
+    });
+</script> 
