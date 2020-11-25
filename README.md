@@ -13,4 +13,8 @@ Resource: [Resource](https://sites.google.com/view/sumit-bhowmik/home?authuser=0
 - None yet
 
 # Resource:
+
+## Making Contents:
 - [Book effect](https://youtu.be/pvbC5kLp7OQ)
+- [Timeline effect](https://youtu.be/9IhZiupGNiA)
+- [Service Section](https://youtu.be/twvWRXbj_qI)
