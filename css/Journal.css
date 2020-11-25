@@ -3,7 +3,8 @@ section{
 }
 
 header{
-    margin: 0; 
+    margin: 0;
+    padding-bottom: 20px;
     width: 100%;
     height: 35vh;
     background: linear-gradient(90deg, rgb(1, 13, 53),rgb(6, 76, 141), rgb(10, 3, 78));
@@ -12,17 +13,63 @@ header{
 
 header h1{
     padding-top: 10vh;
-    text-align: center;
+    text-align: center; 
     color:white;
 }
 
 header p{
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
-
 h2{
     padding: 20px 0px;
     color: #2175f3;
 }
 
+/* =============================
+  WORKING ON RESPONSIVENESS
+============================= */
+@media (min-width:320px){
+    header{
+        margin: 0;
+        padding-bottom: 20px;
+        width: 100%;
+        height: fit-content;
+        background: linear-gradient(90deg, rgb(1, 13, 53),rgb(6, 76, 141), rgb(10, 3, 78));
+        color: rgb(173, 173, 173);
+    }
+    header h1{
+        font-size: 46px;
+        padding-top: 20px;
+        text-align: center; 
+        color:white;
+    }
+    header p{
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    section{
+        font-size: 14px;
+    }
+
+    section h2{
+        font-size: 30px;
+        padding: 20px 0px;
+        color: #2175f3;
+    }
+}
+/* @media (min-width:320px){
+    header h1{
+        padding-top: 10vh;
+        text-align: center;
+        color:white;
+    }
+}
+@media (min-width:320px){
+    header p{
+        font-size: 12px;
+        margin: 0 0 48px;
+    }
+} */
