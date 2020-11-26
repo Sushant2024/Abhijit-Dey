@@ -16,7 +16,7 @@
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     
-    <link href="css/#.css" rel="stylesheet">
+    <link href="css/workshop.css" rel="stylesheet">
 
 <style>
     table{
@@ -113,7 +113,9 @@
                 ENTER CONTENTS BELOW
     ====================================================-->
 <header>
-    <h1>HEADING</h1>
+    <h1>Workshop and seminar</h1>
+    <h3 style="text-align: center; color: aqua;">UNDER MAINTENANCE !</h3>
+    <h3 id="demo" style="text-align: center; font-size: larger; color: cyan;"></h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, expedita ducimus! Sequi excepturi nihil maiores, soluta ut similique odio placeat dolorem? Velit voluptates minus molestias maiores suscipit consectetur exercitationem mollitia.
     </p>
 </header>
@@ -257,3 +259,33 @@
     $(this).addClass("active");
     });
 </script> 
+
+<script>
+    // Set timer we are counting down to
+    var countDownDate = new Date("Nov 30, 2020 00:00:00").getTime();
+
+    // Update the count down every second
+    var countDownfunction = setInterval(function(){
+
+        // get Today's date and time
+        var now = new Date().getTime();
+
+        // Find distance between now and the count down Date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60))/ (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if(distance < 0) {
+            clearInterval(countDownfunction);
+            document.getElementById("demo").innerHTML = "EXPIRED!";
+        }
+    }, 1000)
+</script>
