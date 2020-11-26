@@ -26,9 +26,9 @@ h2{
     color: #2175f3;
 }
 
-/* =============================
-  WORKING ON RESPONSIVENESS
-============================= */
+/*                       =============================
+   ----------------------        RESPONSIVENESS       -------------------------------------
+                         ============================= */
 @media not screen and (min-width:575px){
     header{
         margin: 0;
@@ -61,17 +61,37 @@ h2{
     }
 }
 
-
-/* @media (min-width:320px){
+/* ===========================================
+    RESPONSIVENESS FOR VIEWPORT (991px)
+   =========================================== */
+@media not screen and (min-width:991px){
+    header{
+        margin: 0;
+        padding-bottom: 20px;
+        width: 100%;
+        height: fit-content;
+        background: linear-gradient(90deg, rgb(1, 13, 53),rgb(6, 76, 141), rgb(10, 3, 78));
+        color: rgb(173, 173, 173);
+    }
     header h1{
-        padding-top: 10vh;
-        text-align: center;
+        font-size: 66px;
+        padding-top: 20px;
+        text-align: center; 
         color:white;
     }
-}
-@media (min-width:320px){
     header p{
         font-size: 12px;
-        margin: 0 0 48px;
+        padding-left: 22px;
+        padding-right: 10px;
     }
-} */
+
+    section{
+        font-size: 14px;
+    }
+
+    section h2{
+        font-size: 45px;
+        padding: 20px 0px;
+        color: #2175f3;
+    }
+}
