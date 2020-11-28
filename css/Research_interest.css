@@ -26,6 +26,9 @@
         padding: 20px 0px;
         color: #2175f3;
     }
+    li{
+        padding-left: 1em;
+    }
 }
 
 
@@ -63,6 +66,9 @@
         padding: 20px 0px;
         color: #2175f3;
     }
+    li{
+        padding-left: 1em;
+    }
 }
 
 /* ===========================================
@@ -98,5 +104,8 @@
         font-size: 45px;
         padding: 20px 0px;
         color: #2175f3;
+    }
+    li{
+        padding-left: 1em;
     }
 }
