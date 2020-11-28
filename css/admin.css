@@ -1,18 +1,18 @@
 @media not screen and (max-width:991px){
-    /* section{
+    section{
         margin:0 20px 10px;
     }
-     */
-    header{
+    
+        header{
         margin: 0;
         padding-bottom: 20px;
         width: 100%;
         height: fit-content;
-        background: linear-gradient(90deg,rgb(35, 53, 1),rgb(38, 141, 6), rgb(20, 78, 3));
+        background: linear-gradient(90deg,rgb(10, 53, 1),rgb(78, 141, 6), rgb(9, 78, 3));
         color: rgb(173, 173, 173);
     }
     
-    header h1, h3{
+    header h1{
         padding-top: 10vh;
         text-align: center; 
         color:white;
@@ -22,10 +22,19 @@
         padding-left: 20px;
         padding-right: 10px;
     }
-
     h2{
         padding: 20px 0px;
         color: #2175f3;
+    }
+    table 
+    th, td {
+        padding: 20px 60px;
+    }
+    th{
+        color: black;
+    }
+    li{
+        padding-left: 1em;
     }
 }
 
@@ -54,15 +63,18 @@
         padding-right: 10px;
     }
 
-    /* section{
+    section{
         font-size: 14px;
         padding:20px;
-    } */
+    }
 
     section h2{
         font-size: 30px;
         padding: 20px 0px;
         color: #2175f3;
+    }
+    li{
+        padding-left: 1em;
     }
 }
 
@@ -76,7 +88,7 @@
         width: 100%;
         height: fit-content;
         background: linear-gradient(90deg,rgb(1, 13, 53),rgb(6, 76, 141), rgb(10, 3, 78));
-        color: white
+        color: rgb(173, 173, 173);
     }
     header h1{
         font-size: 66px;
@@ -89,69 +101,18 @@
         padding-left: 22px;
         padding-right: 10px;
     }
-/* 
+
     section{
         font-size: 14px;
         margin-left: 30px;
-    } */
+    }
 
     section h2{
         font-size: 45px;
         padding: 20px 0px;
-        /* color: #2175f3; */
-        color: #fff;
-        align-items: center;
-        text-align: center;
+        color: #2175f3;
     }
-    section p{
-        align-items: center;
-        text-align: center;
-    }
-
-
-    section{
-        height: 40em;
-        /* width: 100%; */
-        background-image: url(/img/tree.jpg);
+    li{
+        padding-left: 1em;
     }
 }
-
-
-
-/* body{
-    background-image: url("tree3.jpg");
-}
-
-.bg_img{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: #ffffff;
-}
-
-.middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-h1{
-    font-size: 40px;
-    letter-spacing: 10px;
-    font-weight: 100;
-}
-
-#demo{
-    font-weight: lighter;
-    word-spacing: 20px;
-}
-
-hr{
-    margin: auto;
-    width:80%;
-    border: 1.5 solid #fff;
-}
- */
