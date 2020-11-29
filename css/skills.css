@@ -1,4 +1,4 @@
-    /*                       =============================
+/*                       =============================
    ----------------------        RESPONSIVENESS       -------------------------------------
                          ============================= */
 @media not screen and (min-width:575px){
@@ -7,7 +7,7 @@
         padding-bottom: 20px;
         width: 100%;
         height: fit-content;
-        background: linear-gradient(90deg, rgb(253, 0, 118),rgb(255, 215, 0),rgb(253, 0, 118));
+        background: linear-gradient(60deg,rgb(48, 1, 48),rgb(83, 2, 83),rgb(255, 0, 128));
         color: rgb(173, 173, 173);
     }
     header h1{
@@ -24,7 +24,7 @@
 
     section{
         font-size: 14px;
-        padding:20px;
+        /* padding:20px; */
     }
 
     section h2{
@@ -32,105 +32,62 @@
         padding: 20px 0px;
         color: #2175f3;
     }
+    li{
+        padding-left: 1em;
+        padding-bottom: 5px;
+    }
 
-    /*-------------------------------------------- CARD MODEL -----------------------------------------------*/
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 1200px;
-        flex-wrap: wrap;
-        padding: 80px 0;
-    }
-    
-    .container .card{
-        position: relative;
-        width: 320px;
-        height: 440px;
-        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, .05),
-                    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
-                    5px 5px 5px rgba(0, 0, 0, .05),
-                    -5px -5px 5px rgba(255, 255, 255, 0.5);
-        border-radius: 15px;
-        margin: 30px;
-    }
-    
-    .container .card .box{
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        right: 20px;
-        bottom: 20px;
-        background: #ebf5fc;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-    }
-    
-    .container .card:hover .box{
-        transform: translateY(-50px);
-        box-shadow: 0 10px 40px rgba(0, 0, 0, .3);
-        background: linear-gradient(45deg, gold, #fd0076);
-    }
-    
-    .container .card .box .content {
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .container .card .box .content h2{
-        position: absolute;
-        top: -10px;
-        right: 30px;
-        font-size: 8em;
-        color: rgba(0, 0, 0, .05);
-        transition: 0.5s;
-        pointer-events: none;
-    }
-    
-    .container .card:hover .box .content h2{
-        color: rgba(0, 0, 0, .05);
-    }
-    
-    .container .card .box .content h3{
-        font-size: 1.8em;
-        color: #777;
-        z-index: 1;
-        transition: 0.5s;
-    }
-    
-    .container .card .box .content p{
-        font-size: 1em;
-        font-weight: 300;
-        color: #777;
-        z-index: 1;
-        transition: 0.5s;
-    }
-    
-    .container .card:hover .box .content p,
-    .container .card:hover .box .content h3{
-        color: #fff;
-    }
-    
-    .container .card .box .content a{
-        position: relative;
-        display: inline-block;
-        padding: 8px 20px;
-        background: #03a9f4;
-        margin-top: 15px;
-        border-radius: 20px;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 400;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-    
-    .container .card:hover .box .content a{
-        background: #ff568f;
-    }
+    /*====================================================
+                      SKILLS
+======================================================*/
+
+#skills {
+    background-image: url("../img/build.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#skills h2{
+    color: white;
+}
+
+.skill-cover {
+    background-color: rgba(31, 31, 31, 0.3); 
+}
+
+.skill-cover h3{
+  font-family: "hind", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.skill-item {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: rgba(144, 144, 144, 0.78);
+}
+
+.skill-item i {
+    color: #1262da;
+}
+
+.skill-item h2 {
+    color: #fff;
+    font-size: "hind", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.skill-item p {
+    color: #fff;
+    font-family: "hind", sans-serif;
+    /*text-transform: uppercase;*/
+    font-weight: 300;
+    margin-top: 0;
+}
 }
 
 /* ===========================================
@@ -159,7 +116,7 @@
 
     section{
         font-size: 14px;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
 
     section h2{
@@ -167,103 +124,56 @@
         padding: 20px 0px;
         color: #2175f3;
     }
+    li{
+        padding-left: 1em;
+        padding-bottom: 10px;
+    }
 
-    /*-------------------------------------------- CARD MODEL -----------------------------------------------*/
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 1200px;
-        flex-wrap: wrap;
-        padding: 80px 0;
-    }
-    
-    .container .card{
-        position: relative;
-        width: 320px;
-        height: 440px;
-        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, .05),
-                    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
-                    5px 5px 5px rgba(0, 0, 0, .05),
-                    -5px -5px 5px rgba(255, 255, 255, 0.5);
-        border-radius: 15px;
-        margin: 30px;
-    }
-    
-    .container .card .box{
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        right: 20px;
-        bottom: 20px;
-        background: #ebf5fc;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-    }
-    
-    .container .card:hover .box{
-        transform: translateY(-50px);
-        box-shadow: 0 10px 40px rgba(0, 0, 0, .3);
-        background: linear-gradient(45deg, gold, #fd0076);
-    }
-    
-    .container .card .box .content {
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .container .card .box .content h2{
-        position: absolute;
-        top: -10px;
-        right: 30px;
-        font-size: 8em;
-        color: rgba(0, 0, 0, .05);
-        transition: 0.5s;
-        pointer-events: none;
-    }
-    
-    .container .card:hover .box .content h2{
-        color: rgba(0, 0, 0, .05);
-    }
-    
-    .container .card .box .content h3{
-        font-size: 1.8em;
-        color: #777;
-        z-index: 1;
-        transition: 0.5s;
-    }
-    
-    .container .card .box .content p{
-        font-size: 1em;
-        font-weight: 300;
-        color: #777;
-        z-index: 1;
-        transition: 0.5s;
-    }
-    
-    .container .card:hover .box .content p,
-    .container .card:hover .box .content h3{
-        color: #fff;
-    }
-    
-    .container .card .box .content a{
-        position: relative;
-        display: inline-block;
-        padding: 8px 20px;
-        background: #03a9f4;
-        margin-top: 15px;
-        border-radius: 20px;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 400;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-    
-    .container .card:hover .box .content a{
-        background: #ff568f;
-    }
+    /*====================================================
+                      SKILLS
+======================================================*/
+
+#skills {
+    background-image: url("../img/build.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.skill-cover {
+    background-color: rgba(31, 31, 31, 0); 
+}
+
+.skill-cover h3{
+  font-family: "hind", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.skill-item {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: rgba(144, 144, 144, 0.78);
+}
+
+.skill-item i {
+    color: #1262da;
+}
+
+.skill-item h2 {
+    color: #fff;
+    font-size: "hind", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.skill-item p {
+    color: #fff;
+    font-family: "hind", sans-serif;
+    /*text-transform: uppercase;*/
+    font-weight: 300;
+    margin-top: 0;
+}
 }
