@@ -79,75 +79,83 @@
     </p>
 </header>
 
-    <section>
-        <div class="container">
+<!--====================================================
+                        SKILLS
+    ======================================================-->       
+    <section class=" d-flex flex-column" id="skills">
+        <div class="p-lg-5 p-3 skill-cover">
+         <h2>Software Skills</h2>
+         <div class="row text-center my-auto "> 
+             <div class="col-md-3 col-sm-6">
+                 <div class="skill-item">
+                     <i class="fa fa-html5 fa-5x"></i>
+                     <h2><span class="counter"> 100 </span><span>%</span></h2>
+                     <p>SOLID WORKS</p>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                 <div class="skill-item">
+                     <i class="fa fa-diamond fa-5x"></i>
+                     <h2><span class="counter"> 98.8 </span><span>%</span></h2>
+                     <p>AUTO CAD 4-10</p>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                 <div class="skill-item">
+                     <i class="fa fa-cubes fa-5x"></i>
+                     <h2><span class="counter"> 99 </span><span>%</span></h2>
+                     <p>CATIA V5</p>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                 <div class="skill-item">
+                     <i class="fa fa-globe fa-5x"></i>
+                     <h2><span class="counter"> 100 </span><span>%</span></h2>
+                     <p>ANSYS APDL 12.0</p>
+                 </div>
+             </div>
+             <div class="col-md-3 col-sm-6">
+                 <div class="skill-item">
+                     <i class="fa fa-code fa-5x"></i>
+                     <h2><span class="counter"> 99.6 </span><span>%</span></h2>
+                     <p>ANSYS APDL 14.0</p>
+                 </div>
+             </div>
+         </div>
+        </div> 
+     </section>
 
-            <div class="card">
-                <div class="box">
-                    <div class="content">
-                        <h2>01</h2>
-                        <h3>	Dr. K M Pandey </h3>
-                        <p>
- Ph.D.(IIT Kanpur)
-Professor and Ex-Head,
-Department of Mechanical Engineering,
-Ex-Dean Research and consultancy
-Ex-Dean, Faculty Welfare
-National Institute of Technology, Silchar
-Assam, India. Ex-Faculty Consultant
-Colombo Plan Staff College, Manila,
-Tel: +919435173130 (Mobile).
-Email: kmpandey2001@yahoo.com
+<section>
+    <h2>Equipments Mastered</h2>
+    <ol>
+        <li>EDM</li>
+        <li>WDEM</li>
+        <li>SEM</li>
+        <li>FESEM</li>
+        <li>EDX</li>
+        <li>XRD</li>
+        <li>Micro Hardness Tester</li>
+        <li>UTM</li>
+        <li>High Resolution Optical Microscope (Taylor Hobson-80G)</li>
+        <li>3D Optical Surface Roughness Tester</li>
+        <li>Stir Casting Setup with control environments</li>
+        <li>Induction Furnace</li>
+        <li>Muffle Furnace</li>
+    </ol>
 
-                       </p>
-                       <a href="#hidden-content">Read more</a>    
-                       
-                       <div id="hidden-content" style="visibility: hidden;">
-                        Ph.D.(IIT Kanpur)
-                        Professor and Ex-Head,
-                        Department of Mechanical Engineering,
-                        Ex-Dean Research and consultancy
-                        Ex-Dean, Faculty Welfare
-                        National Institute of Technology, Silchar
-                        Assam, India. Ex-Faculty Consultant
-                        Colombo Plan Staff College, Manila,
-                        Tel: +919435173130 (Mobile).
-                        Email: kmpandey2001@yahoo.com
-                       </div>
-                    </div>
-                </div>
-            </div>
+    <h2>Skilled Optimization Processes</h2>
+    <ol>
+        <li>Taguchi Approach</li>
+        <li>Gray relation analysis (GRA)</li>
+        <li>Gray Fuzzy Logic</li>
+        <li>Multi objective Pasticle Swine Optimization (PSO)</li>
+        <li>Gray- Taguchi</li>
+        <li>Response Surface Methodology (RSM)</li>
+        <li>GRSM</li>
+    </ol>
+    
+</section>
 
-            <div class="card">
-               <div class="box">
-                   <div class="content">
-                       <h2>02</h2>
-                       <h3>	Dr. U.S. Dixit</h3>
-                       <p>
-                        Professor and Ex-Head
-                        Dept. of Mechanical Engineering
-                        IIT Guwahati, India.
-                        Ph.: +91-361-2582657(0), 2584657(R)
-                        Emails: uday@iitg.ernet.in, usd1008@yahoo.com
-                        Please visit: http://www.iitg.ernet.in/aimtdr2014/
-                        
-                       </p>
-                       <a href="#">Read more</a>                            
-                   </div>
-               </div>
-           </div>
-
-        </div>
-
-
-
-
-
-
-    </section>
-
-</body>
-</html>
 
 <!-- Global javascript -->
 <script src="js/jquery/jquery.min.js"></script>
@@ -210,3 +218,39 @@ Email: kmpandey2001@yahoo.com
         }
     }, 1000)
 </script>
+
+<!-- Skill Progress Counter -->
+<script>
+    $(document).ready(function(){
+
+    $(".filter-b").click(function(){
+        var value = $(this).attr('data-filter');
+        if(value == "all")
+        { 
+            $('.filter').show('1000');
+        }
+        else
+        { 
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+        }
+    });
+    
+    if ($(".filter-b").removeClass("active")) {
+      $(this).removeClass("active");
+    }
+    $(this).addClass("active");
+    });
+
+    // SKILLS
+    $(function () {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });
+
+    });
+</script> 
+
+</body>
+</html>
