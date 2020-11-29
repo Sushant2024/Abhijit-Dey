@@ -25,7 +25,7 @@
       <a class="navbar-brand js-scroll-trigger" href="index.html">
         <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo_f.png" alt="" class="img-fluid"></span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/ad.jpg" alt="Profile Picture">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile_img.jpg" alt="Profile Picture">
         </span>
       </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,10 @@
     ====================================================-->
 <header>
     <h1>Administrative Responsibilities & Membership</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur error minima quod suscipit. Amet asperiores placeat, incidunt id sapiente sint velit repellendus a ea minima explicabo inventore dolore architecto adipisci?</p>
+    <p>
+        Duties and Responsibilities include providing administrative support to ensure efficient operation of the office.<br>
+        Supports managers and employees through a variety of tasks related to organization and communication alongwith being familiar with variety of fiels's concepts, practices & procedures.
+    </p>
 </header>
 <section>
 
@@ -164,34 +167,4 @@
     }
     $(this).addClass("active");
     });
-</script> 
-
-<script>
-    // Set timer we are counting down to
-    var countDownDate = new Date("Nov 30, 2020 00:00:00").getTime();
-
-    // Update the count down every second
-    var countDownfunction = setInterval(function(){
-
-        // get Today's date and time
-        var now = new Date().getTime();
-
-        // Find distance between now and the count down Date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60))/ (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-        // If the count down is over, write some text
-        if(distance < 0) {
-            clearInterval(countDownfunction);
-            document.getElementById("demo").innerHTML = "EXPIRED!";
-        }
-    }, 1000)
 </script>
