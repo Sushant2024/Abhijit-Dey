@@ -1,37 +1,3 @@
-@media not screen and (max-width:991px){
-    section{
-        margin:0 20px 10px;
-    }
-    
-    header{
-        margin: 0;
-        padding-bottom: 20px;
-        width: 100%;
-        height: fit-content;
-        background: linear-gradient(90deg, rgb(53, 1, 53),rgb(141, 6, 130), rgb(78, 3, 68));
-        color: rgb(173, 173, 173);
-    }
-    
-    header h1{
-        padding-top: 10vh;
-        text-align: center; 
-        color:white;
-    }
-    
-    header p{
-        padding-left: 20px;
-        padding-right: 10px;
-    }
-    h2{
-        padding: 20px 0px;
-        color: #2175f3;
-    }
-    li{
-        padding-left: 1em;
-    }
-}
-
-
 /*                       =============================
    ----------------------        RESPONSIVENESS       -------------------------------------
                          ============================= */
@@ -41,7 +7,7 @@
         padding-bottom: 20px;
         width: 100%;
         height: fit-content;
-        background: linear-gradient(90deg, rgb(53, 1, 53),rgb(141, 6, 130), rgb(78, 3, 68));
+        background: linear-gradient(12deg,rgb(51, 0, 0), red,orange,yellow);
         color: rgb(173, 173, 173);
     }
     header h1{
@@ -80,7 +46,7 @@
         padding-bottom: 20px;
         width: 100%;
         height: fit-content;
-        background: linear-gradient(90deg, rgb(53, 1, 53),rgb(141, 6, 130), rgb(78, 3, 68));
+        background: linear-gradient(12deg,rgb(51, 0, 0), red,orange,yellow);
         color: rgb(173, 173, 173);
     }
     header h1{
