@@ -211,7 +211,7 @@ a:active {
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(../img/banner3.png); 
+      background-image: url("../img/banner3.png"); 
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
