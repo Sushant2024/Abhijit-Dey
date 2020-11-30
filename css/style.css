@@ -60,7 +60,7 @@ a:active {
   }
 
   .list-social-icons a:hover {
-      color: #2175f3;
+      color: red;
   }
 
   .list-social-icons a .fa-lg {
@@ -72,7 +72,7 @@ a:active {
   }
 
   .list-icons .list-inline-item i:hover {
-      color: #2175f3;
+      color: red;
   }
 
 /*==================================================
@@ -663,13 +663,13 @@ a:active {
 }
 
 .social-icon-f li i{
-  height: 35px;
-  width:35px;
-  line-height: 35px;
-  border:2px solid #2175f3;
-  text-align: center;
-  margin-right: 10px;
-  border-radius: 50%;
+  /* height: 45px; */
+  /* width:45px; */
+  line-height: 50px;
+  /* border:2px solid #2175f3; */
+  text-align: left;
+  margin-right: auto;
+  /* border-radius: 10%; */
 }  
 
 @media(max-width: 767px){
